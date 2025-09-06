@@ -1,6 +1,7 @@
 package utils
 
-import "github.com/gofiber/fiber"
+import "github.com/gofiber/fiber/v2"
+
 
 type Response struct {
 	Success bool `json:"success"`
